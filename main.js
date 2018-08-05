@@ -67,41 +67,47 @@ text_to_emoji = (msg) => {
       case "l":
       __message += EmojisAlpha[11];
       break;
-      case "o":
+      case "m":
       __message += EmojisAlpha[12];
+      break;
+      case "n":
+      __message += EmojisAlpha[13];
+      break;
+      case "o":
+      __message += EmojisAlpha[14];
       break;
       case "p":
       __message += "🅿";
       break;
       case "q":
-      __message += EmojisAlpha[13];
-      break;
-      case "r":
-      __message += EmojisAlpha[14];
-      break;
-      case "s":
       __message += EmojisAlpha[15];
       break;
-      case "t":
+      case "r":
       __message += EmojisAlpha[16];
       break;
-      case "u":
+      case "s":
       __message += EmojisAlpha[17];
       break;
-      case "v":
+      case "t":
       __message += EmojisAlpha[18];
       break;
-      case "w":
+      case "u":
       __message += EmojisAlpha[19];
       break;
-      case "x":
+      case "v":
       __message += EmojisAlpha[20];
       break;
-      case "y":
+      case "w":
       __message += EmojisAlpha[21];
       break;
-      case "z":
+      case "x":
       __message += EmojisAlpha[22];
+      break;
+      case "y":
+      __message += EmojisAlpha[23];
+      break;
+      case "z":
+      __message += EmojisAlpha[24];
       break;
     }
 
